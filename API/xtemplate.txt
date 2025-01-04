@@ -1,0 +1,9 @@
+const express = require('express');
+const QueueSchema = require('../models/queueItem'); // Your new model
+
+const router = express.Router();
+
+module.exports = (io) => {
+
+    return router;
+};
